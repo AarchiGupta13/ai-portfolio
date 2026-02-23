@@ -1,4 +1,6 @@
 # AI Portfolio with Resume Assistant
+🌐 Live Demo: https://ai-portfolio-sand-beta.vercel.app/
+🔧 Backend API: https://ai-portfolio-jul6.onrender.com
 
 Full-stack AI-powered portfolio website built with:
 
