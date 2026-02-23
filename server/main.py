@@ -12,9 +12,16 @@ load_dotenv()
 app = FastAPI()
 
 # Allow frontend to communicate with backend
+# app.add_middleware(
+#     CORSMiddleware,
+#     allow_origins=["http://localhost:5173"],
+#     allow_credentials=True,
+#     allow_methods=["*"],
+#     allow_headers=["*"],
+# )
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["*"],   # allow all domains
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
