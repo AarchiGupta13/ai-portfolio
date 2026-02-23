@@ -30,7 +30,7 @@ const ChatButton = () => {
     setLoading(true);
 
     try {
-      const response = await axios.post("https://ai-portfolio-jul6.onrender.com", {
+      const response = await axios.post("https://ai-portfolio-jul6.onrender.com/api/chat", {
         message: input,
       });
 
